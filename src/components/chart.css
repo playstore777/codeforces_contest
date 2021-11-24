@@ -1,0 +1,39 @@
+.heading {
+    text-align: left;
+    padding: 8px;
+    color: #2797d1;
+    border-bottom: 1px solid #2797d1;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.range-setters {
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.range-setter {
+    margin: 1vw;
+}
+
+.range-setter input {
+    width: 4vw;
+    min-width: 1vw;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filters select {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}

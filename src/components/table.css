@@ -1,0 +1,136 @@
+.heading {
+    text-align: left;
+    padding: 8px;
+    color: #2797d1;
+    border-bottom: 1px solid #2797d1;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.search-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #222e50;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown select {
+    margin-left: 12px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 2px solid #222e50;
+}
+
+.favorite {
+    cursor: pointer;
+}
+
+input {
+    width: 40%;
+    min-width: 20vw;
+    border-radius: 10px;
+    border: 2px solid #222e50;
+    padding: 1vw;
+    font-size: 14px;
+}
+
+#countPerPage input {
+    margin-left: 1vw;
+    width: 4vw;
+    min-width: 2vw;
+}
+
+button {
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    font-weight: 600;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid #e9d985;
+    background-color: #2797d1;
+    cursor: pointer;
+    margin: 0px 15px;
+    min-width: 100px;
+}
+
+table {
+    width: 100%;
+    padding: 1em;
+    margin: 20px 0;
+    border-collapse: collapse;
+    box-shadow: 0 1px 2px 0 #e9d985;
+}
+
+thead {
+    background-color: #222e50;
+    font-size: 16px;
+    color: #2797d1;
+}
+
+th {
+    text-align: left;
+    padding: 8px;
+    background-color: 1px solid #ffffff;
+    color: #222e50;
+}
+
+.tableHeading {
+    /* text-align: left;
+    padding: 8px; */
+    background-color: #222e50;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+    color: #222e50;
+}
+
+tr {
+    height: 50px;
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    color: #222e50;
+    background-color: #7ec4e7;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination button {
+    min-width: 10px;
+    margin-right: 10px;
+}
+
+.pagination select {
+    margin: 10px;
+    padding: 10px;
+}
+
+.rc-pagination-prev .rc-pagination-item-link,
+.rc-pagination-next .rc-pagination-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+}
