@@ -1,6 +1,7 @@
 # Codeforces Contest app using react
 
 Try it here:
+https://codeforces-contest-app.vercel.app/
 
 This app uses codeforces contest api to fetch contest list.
 
