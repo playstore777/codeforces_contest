@@ -106,7 +106,7 @@ const Table = ({ allData, setGraphVisible, graphVisible }) => {
         } else {
             searchData.current(value);
         }
-    }, [value]);
+    }, []);
 
     const tableRows = (rowData) => {
         const { key, index } = rowData;
