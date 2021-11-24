@@ -106,6 +106,7 @@ const Table = ({ allData, setGraphVisible, graphVisible }) => {
         } else {
             searchData.current(value);
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [value]);
 
     const tableRows = (rowData) => {

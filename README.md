@@ -15,3 +15,6 @@ lodash(for easier data handling/manipulation and performance)
 ## Screenshots
 
 ![Contest List](/screenshots/home.png)
+![Contest List 2](/screenshots/home2.png)
+![graph](/screenshots/graph.png)
+![graph 2](/screenshots/graph2.png)
