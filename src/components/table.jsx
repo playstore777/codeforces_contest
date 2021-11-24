@@ -66,15 +66,6 @@ const Table = ({ allData, setGraphVisible, graphVisible }) => {
         setCollection(cloneDeep(data.slice(0, pageSize))); // shows first countPerPage contest having the given type only.
     };
 
-    useEffect(() => {
-        // if we are not searching for anything, it updates the page, else, it sends the control to the search function
-        if (!value) {
-            updatePage(1);
-        } else {
-            searchData.current(value);
-        }
-    }, [value]);
-
     const updatePage = (p) => {
         setCurrentPage(p);
         const to = pageSize * p; // if countPerPage is 10, then p is 2 => 10 * 2 = 20, which means next 20 will be displayed
@@ -107,6 +98,15 @@ const Table = ({ allData, setGraphVisible, graphVisible }) => {
         const data = allData.filter((item) => item.type === filterValue);
         setCollection(cloneDeep(data.slice(from, to)));
     };
+
+    useEffect(() => {
+        // if we are not searching for anything, it updates the page, else, it sends the control to the search function
+        if (!value) {
+            updatePage(1);
+        } else {
+            searchData.current(value);
+        }
+    }, [value]);
 
     const tableRows = (rowData) => {
         const { key, index } = rowData;
